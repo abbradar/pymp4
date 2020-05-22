@@ -20,7 +20,7 @@ from setuptools import setup, find_packages
 from sys import path as sys_path
 
 deps = [
-    "construct==2.8.8"
+    "construct>=2.9<2.10"
 ]
 
 srcdir = join(dirname(abspath(__file__)), "src/")
